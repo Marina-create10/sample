@@ -1,0 +1,114 @@
+body {
+    font-family: sans-serif;
+    background-color: white;
+    width: 1200px;
+}
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    margin-right: 20px;
+
+}
+
+.logo_text {
+    color: black;
+    font-size: 26px;
+    text-align: left;
+}
+
+.logo_text span {
+    color: #FF9B3F
+}
+
+nav {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 25px 100px 25px 95px;
+    display: flex;
+    justify-content: center;
+    background-color: #36bbce;
+
+}
+
+.nav-link {
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-right: 40px;
+    background-color: #36bbce;
+}
+
+.nav-link:hover {
+    color:blue;
+    font-size:30px;
+}
+
+h1 {
+    text-align: left;
+    color: black;
+    font-size: 36px;
+}
+
+.info {
+    height: 400px;
+    width: 1100px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.info_text {
+    width: 500px;
+    font-size: 22px;
+}
+
+.info_img {
+    width: 300px;
+}
+
+.info_button {
+    padding: 10px;
+    background-color: #FF9B3F;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+
+}
+
+.advantages {
+    display: flex;
+    justify-content: center;
+}
+
+.advantage {
+    margin: 10px;
+    height: 250px;
+    width: 250px;
+    background-color: #36bbce;
+    padding: 0px;
+    text-align: center;
+}
+
+.advantage h3{
+    margin-top: 0px;
+    color: white;
+    font-size: 24px
+}
+
+.advantage p{
+    font-size: 20px
+}
+
+footer {
+    background-color: #FF9B3F;
+    padding: 20px;
+    color: white;
+    font: 16px;
+}
+
+footer p {
+    font-weight: 100;
+}
